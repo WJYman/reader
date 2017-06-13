@@ -1,0 +1,183 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.r-header{
+    width: 100%;
+    height: 40px;
+    background: #f1f1f1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid black;
+    display: none;
+}
+
+.r-header span{
+    display: block;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+
+
+}
+
+
+
+.r-header .header-btn{
+    display: block;
+    width: 55px;
+    height: 100%;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url("../../images/149542394170197894.png") no-repeat center;
+    background-size: auto 30px;
+
+}
+
+
+.r-main{
+    padding-top: 45px;
+}
+
+.r-main h5{
+  text-indent: 10px;
+    margin: 10px 0;
+}
+.r-main p{
+    text-indent: 25px;
+    width: 95%;
+   margin: 0 auto;
+}
+
+
+
+
+
+.r-list{
+    width: 100%;
+    height: 200px;
+    background: #f1f1f1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    overflow-y: auto;
+    display: none;
+}
+
+.r-list a{
+    display: block;
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    color: black;
+}
+
+
+.r-action{
+    width: 100%;
+    height: 150px;
+    background: oldlace;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    border-top: 1px solid black;
+    padding: 0 10%;
+    box-sizing: border-box;
+    display: none;
+
+}
+.r-action .r-sure{
+    border: 2px solid yellow;
+    box-sizing: border-box;
+}
+
+.r-action h5{
+    float: left;
+    width: 100%;
+}
+.r-action div{
+    width: 100%;
+    height: auto;
+}
+
+.r-action  button{
+    border: none;
+    width: 19%;
+    height: 30px;
+    float: left;
+    margin-right: 1%;
+}
+.r-action .r-bg button:nth-child(1){
+    background: white;
+}
+.r-action .r-bg button:nth-child(2){
+    background: green;
+}
+.r-action .r-bg button:nth-child(3){
+    background: pink;
+}
+.r-action .r-bg button:nth-child(4){
+    background: greenyellow;
+}
+.r-action .r-bg button:nth-child(5){
+    background: lightblue;
+}
+
+
+
+
+
+
+
+.r-action .r-fontSize button:nth-child(1){
+    font-size: 12px;
+}
+.r-action .r-fontSize button:nth-child(2){
+    font-size: 14px;
+}
+.r-action .r-fontSize button:nth-child(3){
+    font-size: 16px;
+}
+.r-action .r-fontSize button:nth-child(4){
+    font-size: 18px;
+}
+.r-action .r-fontSize button:nth-child(5){
+    font-size: 20px;
+}
+
+
+
+
+
+.r-action .r-fontColor button:nth-child(1){
+    background: black;
+}
+.r-action .r-fontColor button:nth-child(2){
+    background: red;
+}
+.r-action .r-fontColor button:nth-child(3){
+    background: white;
+}
+.r-action .r-fontColor button:nth-child(4){
+    background: blue;
+}
+.r-action .r-fontColor button:nth-child(5){
+    background: blueviolet;
+}
+
